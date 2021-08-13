@@ -1,0 +1,478 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+header {
+  background-color: white; 
+}
+
+html, body {
+ background-color: #e7d052; 
+}
+
+#takeActionDiv {
+  background-color: #e7d052;
+  padding: 5%;
+}
+
+#contactInformation {
+  background-color: black;
+  color: white;
+  font-family: 'Playfair Display', Times, serif;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#opening {
+  background-image: url("assets/handstogether.jpg");
+  height: 100%;
+  /* Center and scale the image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  text-align: center;
+}
+
+.waysToHelp {
+  background-color: #e7d052;
+}
+
+#newsPageHeader {
+  padding-left: 2%;
+  padding-top: 1%;
+}
+
+.aboutMe {
+  display: flex;
+}
+
+.aboutMeInfo {
+  flex: 50%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#aboutMeText {
+  padding-right: 5%;
+  padding-left: 5%;
+  font-size: 13pt;
+}
+
+#aboutMeImgSide {
+  background-color: white;
+}
+
+.hateCrime {
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+
+/* STYLE TEXT */
+#openingText {
+  font-family: "Bebas Neue", serif;
+  color: white;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-size: 15pt;
+}
+
+#contactTitle {
+  font-weight: bold;
+  font-size: large;
+  font-family: "Abril Fatface", serif;
+}
+
+.pageHeader {
+  font-family: 'Abril Fatface', serif;
+  font-size: 35pt;
+}
+
+h1 {
+  font-family: "Abril Fatface", serif;
+  font-size: 30pt;
+}
+
+h2 {
+  font-family: "Abril Fatface", serif;
+  font-size: 20pt;
+}
+
+h3 {
+  font-family: "Abril Fatface", serif;
+}
+
+h4 {
+  font-size: 35pt;
+  font-weight: bold;
+  padding-top: 5%;
+}
+
+h5 {
+  font-family: 'Bebas Neue', serif;
+}
+
+h7 {
+  font-family: 'Abril Fatface', serif;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Lato', serif;
+  font-size: 15pt;
+}
+
+.newsTitles {
+  font-family: 'Playfair Display', serif;
+  font-size: 15pt;
+}
+
+.btn.btn-outline-warning {
+  font-family: 'Bebas Neue', serif !important;
+  letter-spacing: 3px;
+  font-size: 13pt;
+}
+
+#newsPageHeaderText {
+  font-size: 15pt;
+  font-family: 'Lato', serif;
+}
+
+.contactPadding {
+  margin: 0;
+  padding: 0;
+  font-size: 11pt;
+}
+
+#takeActionText {
+  font-family: "Lato", serif;
+  font-size: 15pt;
+}
+
+.text-section {
+  text-align: center;
+  padding: 10px;
+  padding-top: 15px;
+}
+
+
+
+/* STYLE IMAGES */
+.newsButtonImg {
+  width: 100%;
+  height: 300px;
+}
+
+.waysToHelpImg {
+  transform: scale(4.5);
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#aboutMeImg {
+  width: 60%;
+  border-radius: 20%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+
+
+/* STYLE NAV BAR */
+.navbar a{
+  font-family: 'Bebas Neue', serif !important;
+  font-size: 15pt;
+  }
+
+
+
+/* STYLE BUTTONS */
+.newsButton {
+  /* background */
+  background-color: black;
+  line-height: 1.5em;
+  
+  /* text */
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 14pt;
+
+  /* button size and position */
+  width: 50%;
+  height: 70%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 14%;
+  padding-bottom: 10%;
+  padding-right: 7%;
+  padding-left: 7%;
+  padding-top: 5%;
+}
+
+.newsButton:hover {
+  height: 75%;
+}
+
+button {
+  width: auto;
+  overflow: hidden;
+}
+
+#myButton {
+  background-color: #e7d052;
+  display: block;
+  margin-right: auto;
+	margin-left: auto;
+  padding: 15px;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  border-top: 0px;
+  border-left: 0px;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  font-family: "Bebas Neue", serif;
+  font-size: 15pt;
+}
+
+#myButton:hover {
+  background-color: #d3a510;
+}
+
+
+
+/* STYLE HOW TO HELP */
+.waysToHelp1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #e77552;
+  height: 300px;
+}
+
+.educate {
+  flex-basis: 100%;
+  text-align: center;
+  padding-right: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.waysToHelp2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #e78952;
+  height: 300px;
+}
+
+.volunteer {
+  flex-basis: 100%;
+  text-align: center;
+  padding-right: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.waysToHelp3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #e79a52;
+  height: 300px;
+}
+
+.sign {
+  flex-basis: 100%;
+  text-align: center;
+  padding-right: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.waysToHelp4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #e7b352;
+  height: 300px;
+}
+
+.donate {
+  flex-basis: 100%;
+  text-align: center;
+  padding-right: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.waysToHelp5 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #e7c452;
+  height: 300px;
+}
+
+.speakUp {
+  flex-basis: 100%;
+  text-align: center;
+  padding-right: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#howToHelpSteps {
+  background-color: #e7d052;
+  font-family: 'Bebas Neue', serif;
+}
+
+#howToHelpHeader {
+  padding: 5%;
+}
+
+.newsTitle {
+  display: flex;            
+  flex-direction: row;      
+  justify-content: center;  
+  align-items: center;
+}
+
+.newsTitle {
+  padding: 1%;
+  color: white;
+  font-size: 15pt;
+  text-align: center;
+  letter-spacing: 10px;
+  line-height: 10px;
+  background-color: black;
+}
+
+
+
+/* ABOUT ME */
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #e7d052;
+}
+
+.aboutMeInfo {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+
+
+/* NEWS */
+.newsRows {
+  display: flex;         
+  flex-direction: row;      
+  justify-content: center;  
+  align-items: center;
+  background-color: #e7d052;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.newsRowsButtons {
+  margin-left: 1%;
+  margin-right: 1%;
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 10%;
+}
+
+
+
+/* SCRIPT */
+.Script {
+  background-color: #e79f4d;
+  padding: 10%;
+  margin: 10%;
+  color: black;
+  border-right: 8px solid white;
+  border-bottom: 8px solid white;
+  font-size: 15pt;
+  letter-spacing: 0.5px;
+}
+
+#scriptReturned {
+  padding-top: 20px;
+}
+
+
+
+/* MEDIA BREAKPOINTS */
+<!-- 
+@media screen and (max-width: 768px) {
+  
+  .newsRows {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10%;
+    padding-top: 0;
+    padding-bottom: 0;
+    }
+  
+  .newsRowsButtons {
+    margin-top: 5%;
+    margin-bottom: 5%;
+   }
+}
+
+@media screen and (max-width: 600px) {
+  
+  .waysToHelp1 {
+    height: 100%;
+    } 
+
+  .waysToHelp2 {
+    height: 100%;
+    } 
+
+  .waysToHelp3 {
+    height: 100%;
+    } 
+
+  .waysToHelp4 {
+    height: 100%;
+    } 
+    
+  .waysToHelp5 {
+    height: 100%;
+    } 
+
+    .newsButton {
+    height: 70%;
+    font-size: 13pt;
+    }
+
+    .newsButton:hover {
+    height: 71%;
+    }
+
+    .aboutMe {
+    display: block;
+    background-color: #e7d052;
+  }
+  
+    #aboutMeImg {
+    width: 60%;
+    border-radius: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }    
+} 
